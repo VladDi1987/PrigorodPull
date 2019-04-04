@@ -1,0 +1,164 @@
+.page
+  height: 100%
+  
+
+.poll
+  max-width: 900px
+  width: 100%
+  margin: 100px auto 0
+  padding: 0 15px
+  &__title
+    color: #4b4b4b
+    font: 20px $mainFont
+    font-weight: 700
+    line-height: 1em
+    text-transform: uppercase
+    letter-spacing: 0.45px
+    text-align: center
+  &__row
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin-bottom: 16px
+    &:last-child
+      margin-bottom: 0
+  &__content
+    margin: 120px auto 0 auto
+  &__icon
+    padding: 0 16px 0 0
+
+
+.poll
+  &-rubric
+    display: flex
+    flex-direction: row
+    align-items: baseline
+    &__label
+      color: #4b4b4b
+      font: 20px $mainFont
+      font-weight: 700
+      line-height: 1em
+      text-transform: uppercase
+      letter-spacing: 0.45px
+
+.confess
+  display: flex
+  flex-direction: row
+  padding: 0 20px
+
+.confess > li.star
+  margin: 0 3px
+  cursor: pointer
+  position: relative
+  display: block
+  width: 38px
+  height: 38px
+  background: url("../images/poll-icon/star-default.png") no-repeat center center
+
+
+/********************* ONLY  CSS  FOR HOVER ON STARS   ***********************/
+
+//
+//.confess:hover li.star
+//  background: url("../images/poll-icon/star-hover.png") no-repeat center center
+//  background-size: cover
+//
+//
+//.confess:hover li.star:hover ~ li
+//  background: url("../images/poll-icon/star-default.png") no-repeat center center
+//
+
+
+
+/***********************************************************************/
+
+
+
+/******************* STYLE FOR JS  WHEM MOUSE HOVER ON STARS  ************************/
+
+
+.confess > li.star.hover
+  background: url("../images/poll-icon/star-hover.png") no-repeat center center
+  background-size: cover
+
+
+.confess > li.star.selected
+  background: url("../images/poll-icon/star-selected.png") no-repeat center center
+  background-size: cover
+
+
+/***********************************************************************/
+
+
+.total
+  &-rite
+    display: flex
+    align-items: center
+    &__count
+      color: #08d8c2
+      font: 30px $mainFont
+      font-weight: 700
+      text-transform: uppercase
+      letter-spacing: 0.45px
+  &__star
+    width: 24px
+    height: 24px
+    background: url("../images/poll-icon/star-selected.png") no-repeat center center
+    background-size: cover
+    margin-left: 10px
+
+.btn
+  &-wrap
+    display: flex
+    justify-content: center
+    margin: 40px auto 40px auto
+  &__inner
+    width: 282px
+    height: 72px
+    position: relative
+    overflow: hidden
+  &_poll
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    border: 2px solid #08d8c2
+    height: 100%
+    width: 100%
+    color: #08d8c2
+    font: 18px $mainFont
+    font-weight: 700
+    line-height: 1em
+    text-transform: uppercase
+    letter-spacing: 0.27px
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    background: $white
+
+
+.voted
+  &__wrap
+    display: flex
+    justify-content: center
+  &__text
+    color: #9d9d9d
+    font: 18px $mainFont
+    font-weight: 700
+    line-height: 1em
+    letter-spacing: 0.27px
+
+
+.ripple-effect
+  position: absolute
+  border-radius: 50%
+  background-color: rgba(8, 216, 194, 0.8)
+  user-select: none
+  pointer-events: none
+  padding: 0
+  margin: 0
+  opacity: 0.6
+  transform: translate3d(-50%, -50%, 0)
+  z-index: 10

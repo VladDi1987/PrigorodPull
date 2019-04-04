@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vlad Dyshliuk">
+    <meta name="description" content="">
+  <!--  <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>poll</title>
+</head>
+<body>
+
+<div class="page">
+
+    <div id="poll" class="poll">
+        <h2 class="text__title-big poll__title" data-aos="fade-up">
+            <span data-aos="fade-right" data-aos-delay="500">Мнение жителей</span>
+        </h2>
+        <div class="poll__content">
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/square.png" alt="square">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">инфраструктура</p>
+                    <ul id="infrastructure-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="infrastructure-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/cars.png" alt="cars">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">загруженность дорог</p>
+                    <ul id="road-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="road-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/flower.png" alt="flower">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">зеленые зоны, экология</p>
+                    <ul id="ecology-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="ecology-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/grocery.png" alt="grocery">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">ТРЦ, маркеты</p>
+                    <ul id="grocery-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="grocery-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/pen.png" alt="pen">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">школы, детсады</p>
+                    <ul id="schools-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="schools-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+            <div class="poll__row">
+                <div class="poll__icon">
+                    <img src="images/poll-icon/shield.png" alt="">
+                </div>
+                <div class="poll-rubric">
+                    <p class="poll-rubric__label">безопасность</p>
+                    <ul id="security-poll" class="confess">
+                        <li class='star' title='Poor' data-value='1'></li>
+                        <li class='star' title='Fair' data-value='2'></li>
+                        <li class='star' title='Good' data-value='3'></li>
+                        <li class='star' title='Excellent' data-value='4'></li>
+                        <li class='star' title='WOW!!!' data-value='5'></li>
+                    </ul>
+                </div>
+                <div class="total-rite">
+                    <p id="security-rite" class="total-rite__count">0</p>
+                    <div class="total-rite__star"></div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-wrap">
+            <div class="btn__inner">
+                <input type="button" class="btn_poll" id="btn_poll" value="отправить">
+            </div>
+        </div>
+        <div class="voted">
+            <div class="voted__wrap">
+                <div class="voted__inner">
+                    <p class="voted__text">Проголосовало: <span class="voted__count">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
