@@ -26,7 +26,7 @@ const fireBaseService = (function (config, firebase, starsManipulationService) {
     function getVotesValue() {
         // add  getPageName() to ref(config.dataUrl.reference + getPageName())
         let votersRef = firebase.database().ref(config.dataUrl.reference).child('voted');
-        votersRef.once("value", function (obj) {
+        votersRef.on("value", function (obj) {
             let mark = obj.val();
             Object.keys(mark).forEach(function (key) {
                 votersValue = mark[key];

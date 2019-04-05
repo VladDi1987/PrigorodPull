@@ -19,32 +19,30 @@ const pollManipulation = (function (fireBaseService, starsManipulation, localSto
         let cityRef = firebase.database().ref(config.dataUrl.reference).child('ratings');
         let ratings = {};
 
-        cityRef.once("value", function (obj) {
+        cityRef.on("value", function (obj) {
             let rating = obj.val();
             let starsValues = starsManipulation.getStarsValue();
-
             Object.keys(starsValues).forEach(function(key) {
                 ratings[key] = rating[key] + starsValues[key].count;
             });
-
         });
         cityRef.update(ratings);
-        //pollButton.disabled = true;
+        // pollButton.disabled = true;
         // localStorageServices.setDataToLocalStorage();
         starsManipulation.shutDown();
     }
 
     function setVoteNumber() {
-        let count = {};
+        let counter = {};
         // add  getPageName() to .ref(config.dataUrl.reference  + fireBaseService.currentPage())
         let votersRef = firebase.database().ref(config.dataUrl.reference).child('voted');
-        votersRef.once("value", function (object) {
-            let mark = object.val();
-            count = {
-                count: mark["count"] + 1
-            }
+        votersRef.on("value", function (obj) {
+            let mark = obj.val();
+            Object.keys(mark).forEach(function (key) {
+                counter[key] = mark[key] + 1;
+            });
         });
-        votersRef.update(count);
+        votersRef.update(counter);
     }
 
 

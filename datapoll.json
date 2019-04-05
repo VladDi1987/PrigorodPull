@@ -1,0 +1,421 @@
+{
+  "data" : {
+    "data-test" : {
+      "poll" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 4
+        },
+        "ratings" : {
+          "infrastructure" : 60,
+          "road" : 56,
+          "ecology" : 54,
+          "grocery" : 45,
+          "schools" : 51,
+          "security" : 82
+        }
+      }
+    },
+    "prigorods" : {
+      "alexandrovka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 7
+        },
+        "ratings" : {
+          "infrastructure" : 45,
+          "road" : 42,
+          "ecology" : 45,
+          "grocery" : 25,
+          "schools" : 35,
+          "security" : 65
+        }
+      },
+      "belogorodka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 9
+        },
+        "ratings" : {
+          "infrastructure" : 50,
+          "road" : 40,
+          "ecology" : 41,
+          "grocery" : 25,
+          "schools" : 33,
+          "security" : 65
+        }
+      },
+      "boryspil" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "boyarka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "brovary" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 80,
+          "security" : 60
+        }
+      },
+      "bucha" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "chabani" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "gatnoe" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "irpin" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "kotsiubynske" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "obuhov" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "petropavlovska-borschagovka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "poll" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "pushcha" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "schaslivoe" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 7
+        },
+        "ratings" : {
+          "infrastructure" : 45,
+          "road" : 38,
+          "ecology" : 40,
+          "grocery" : 24,
+          "schools" : 34,
+          "security" : 65
+        }
+      },
+      "sophia-borschagovka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 7
+        },
+        "ratings" : {
+          "infrastructure" : 45,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 25,
+          "schools" : 30,
+          "security" : 65
+        }
+      },
+      "tarasovka" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted":  {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      },
+      "ukrainka" : {
+        "members" : {
+          "counter" : 8
+        },
+        "ratings" : {
+          "infrastructure" : 48,
+          "road" : 46,
+          "ecology" : 50,
+          "grocery" : 30,
+          "schools" : 37,
+          "security" : 70
+        }
+      },
+      "vyshgorod" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted": {
+          "counter" : 9
+        },
+        "ratings" : {
+          "infrastructure" : 45,
+          "road" : 38,
+          "ecology" : 41,
+          "grocery" : 24,
+          "schools" : 35,
+          "security" : 64
+        }
+      },
+      "vyshneve" : {
+        "members" : {
+          "-LVKJBRqvqjh6FQOENHJ" : {
+            "email" : "mr.akira@mail.ru",
+            "name" : "Vlad",
+            "id" : "168966502781"
+          }
+        },
+        "voted": {
+          "counter" : 6
+        },
+        "ratings" : {
+          "infrastructure" : 40,
+          "road" : 37,
+          "ecology" : 40,
+          "grocery" : 20,
+          "schools" : 30,
+          "security" : 60
+        }
+      }
+    }
+  }
+}
