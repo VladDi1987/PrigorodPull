@@ -2,15 +2,16 @@ import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/database';
 import config from "../js/config";
+import starsManipulationService from "../js/StarsManipulation.service";
 
-const fireBaseService = (function (config, firebase) {
+const fireBaseService = (function (config, firebase, starsManipulationService) {
     "use strict";
 
     firebase.initializeApp(config.firebaseConfig);
+    const riteCounters = starsManipulationService.getRiteOutputs();
 
     let starsTotal = 5,
-      votersValue = 0;
-    let totalRiteNumbers = document.querySelectorAll('.total-rite__count'),
+      votersValue = 0,
       votedCount = document.querySelector('.voted__count');
 
  /*   if more page*/
@@ -23,26 +24,26 @@ const fireBaseService = (function (config, firebase) {
     }*/
 
     function getVotesValue() {
-        let votersRef = firebase.database().ref(config.dataUrl.reference).child('members');
-        votersRef.on("value", function (obj) {
+        // add  getPageName() to ref(config.dataUrl.reference + getPageName())
+        let votersRef = firebase.database().ref(config.dataUrl.reference).child('voted');
+        votersRef.once("value", function (obj) {
             let mark = obj.val();
-            votersValue = mark['count'];
-            votedCount.innerText = votersValue;
+            Object.keys(mark).forEach(function (key) {
+                votersValue = mark[key];
+                votedCount.innerText = mark[key];
+            });
         });
     }
 
     function fillStarsRatingValue() {
+        // add  getPageName() to ref(config.dataUrl.reference + getPageName())
         let ref = firebase.database().ref(config.dataUrl.reference).child('ratings');
         ref.on("value", function (obj) {
             let rating = obj.val();
-            let i = 0;
-            for (let prop in rating) {
-                // Add number rating
-                let starPercentage = (rating[prop] / starsTotal) / votersValue;
-                let totalValue = Math.round(starPercentage * 10) / 10;
-                totalRiteNumbers[i].innerHTML = totalValue;
-                i++;
-            }
+            Object.keys(rating).forEach(function (key) {
+                let starPercentage = (rating[key] / starsTotal) / votersValue;
+                riteCounters[key].element.innerText = Math.round(starPercentage * 10) / 10;
+            });
         })
     }
 
@@ -56,6 +57,6 @@ const fireBaseService = (function (config, firebase) {
         // currentPage: getPageName
     }
 
-})(config, firebase);
+})(config, firebase, starsManipulationService);
 
 export default fireBaseService;
